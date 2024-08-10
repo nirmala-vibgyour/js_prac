@@ -1,3 +1,5 @@
+// List of string methods: toLowerCase(), toUpperCase(), indexOf(), charAt(), .length, split, match, replace
+// substr(), split(), toString(), lastINdexOf()  
 // Creating the string object.
 var str1 = "Hello World"
 var str2 = new String(str1)
@@ -32,7 +34,7 @@ console.log("The user with the username cannot be find as the user in our user d
 index1 = "JavaScript is used in web development".indexOf("w")
 index2 = "JavaScript is used in web development".indexOf("m")
 console.log("JavaScript is used in web development.".slice(index1))
-console.log("JavaScript is used in web development.".slice(index1, index2))
+console.log("JavaScript is used in web development.".slice(index1, index))
 // using substr
 // The required parameter, start, signifies where the substring to extract begins. This
 // value can be followed by an optional number of characters to include in the returned substring.
