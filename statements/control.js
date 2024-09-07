@@ -41,3 +41,24 @@ for ( i = 0; i < 11; i++) {
 // without using blocks
 for ( i = 0; i < 11; i++) console.log(i)
 
+for(j = 0; j <= 10; j++) {
+    console.log("City: " + j);
+}
+
+names = ["xyz", "stu", "abc", "mno"]
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+for (var i = 0; i < firstNames.length; i++) {
+    for (var j = 0; j < lastNames.length; j++) {
+        fullNames.push(firstNames[i] + lastNames[j]);
+    }
+}
+
+console.log(fullNames);
+
+

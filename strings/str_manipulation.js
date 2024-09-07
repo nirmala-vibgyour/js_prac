@@ -34,7 +34,7 @@ console.log("The user with the username cannot be find as the user in our user d
 index1 = "JavaScript is used in web development".indexOf("w")
 index2 = "JavaScript is used in web development".indexOf("m")
 console.log("JavaScript is used in web development.".slice(index1))
-console.log("JavaScript is used in web development.".slice(index1, index))
+console.log("JavaScript is used in web development.".slice(index1, index2))
 // using substr
 // The required parameter, start, signifies where the substring to extract begins. This
 // value can be followed by an optional number of characters to include in the returned substring.
@@ -49,5 +49,10 @@ console.log("JavaScript".toLowerCase())
 // comparison
 console.log("JS" == "JS".toLowerCase())
 
+var cellParts = "endoplasmicreticulam";
+var firstPart = cellParts.slice(0, 3);
+console.log(firstPart);
+// slices the characters from the index 1, to the rest..
+console.log(cellParts.slice(1));
 
 

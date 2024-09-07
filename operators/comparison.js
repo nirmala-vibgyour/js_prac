@@ -24,3 +24,10 @@ console.log( 4 !== 4.0)
 console.log( 4 !== 4) 
 console.log( 4 !== '4')
 console.log('4' !== 4)
+
+console.log('Rose' != 'rose')
+console.log('Rose' !== 'rose')
+console.log('Rose' == 'rose')
+console.log('Rose' === 'rose')
+
+// comparisons with && and || can be resolved using parnes too.

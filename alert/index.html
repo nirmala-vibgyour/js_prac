@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Example</title>
+</head>
+<body>
+    <script>
+        var thanks;
+        thanks = "Thank you for your input!!";
+        alert(thanks);
+        
+        alert("Provide input again.")
+        
+        var caseQty = 144;
+        alert(caseQty);     // here, caseQty is converted to string and then displayed.
+        
+        var x = prompt("Where does the Pope lives?");
+        if (x === "Vatican") {
+            alert("Correct!");
+        }
+        var question = "Your species?";
+        var defaultAnswer = "human";
+        var spec = prompt(question, defaultAnswer);
+        alert(spec)
+        
+        weight = prompt("Enter the weight.")
+        time = prompt("Enter the time.")
+        if (weight > 300 && time < 6) {
+            alert("Come to our tryout!");
+        }
+        else {
+            alert("Come to our cookout!");
+        }
+    </script>
+</body>
+</html>
