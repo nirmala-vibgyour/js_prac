@@ -61,4 +61,15 @@ for (var i = 0; i < firstNames.length; i++) {
 
 console.log(fullNames);
 
+var i = 0;
+while (i <= 3) {
+    console.log(i);
+    i++;
+}
+
+var i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i <= 3);
 

@@ -7,6 +7,36 @@
 </head>
 <body>
     <script>
+
+        var greeting = "Hello, there."
+        greetUser(greeting);
+
+        function greetUser(greeting) {
+            alert(greeting);
+        }
+
+        tellTime();
+
+        function tellTime() {
+        var now = new Date();
+        var theHr = now.getHours();
+        var theMin = now.getMinutes();
+        alert("Current time: "+ theHr + ":" + theMin);
+        }
+
+        var currentAge = prompt("Enter your age.");
+        var qualifyingAge = parseInt(currentAge) + 1;
+        alert(qualifyingAge);
+
+        // parseInt converts all strings, including strings comprising floating-point numbers, to
+        // integers. And shocking but true: It it doesn't round. It simply lops off the decimals.
+        var myInteger = parseInt("1.9999");
+        alert(myInteger);
+
+        // To preserve any decimal values, use parseFloat. 
+        var myFractional = parseFloat("1.9999");
+        alert(myFractional);
+        
         var thanks;
         thanks = "Thank you for your input!!";
         alert(thanks);
@@ -34,5 +64,7 @@
             alert("Come to our cookout!");
         }
     </script>
+    <a href = "./base.html">link</a>
+
 </body>
 </html>

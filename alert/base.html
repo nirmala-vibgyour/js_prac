@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webPage</title>
+    <script src="./responsive.js"></script>
+</head>
+<body>
+    <h1 id = "events" onMouseover="details()">Events</h1><br>
+    <input type="radio" name="event" value="event1" onclick="rasieEventSelection('event-one')">
+    event-one
+    <br>
+    <input type="radio" name="event" value="event2" onclick="rasieEventSelection('event-two')">
+    event-two
+    <br>
+    <button onclick="submitResponse()" onMouseover="this.style.color='green';" onMouseout="this.style.color='black';">Submit</button>
+    <br>
+    <a href="#" onclick="linkToProjects()"><img src="./link.jpg" width="200px" height="100"></a>
+    <br> <hr>    
+    <!-- <a href="#" onclick="alert('Hi');">Click</a> -->
+    <!-- js code inside the quotes -->
+    <!-- onclick is the event handler -->
+    <a href="JavaScript:void(0)" onclick = "var greet = 'hi'; alert(greet);">Click</a>
+    <br>
+    <!-- another event handler: onMouseover and onMouseout -->
+    <a href="#" onclick="alert('This is to contact me.')"><img src="./contact.jpg" onMouseover="src='./contactAfter.jpg'" onMouseout="src='./contact.jpg'" width="200px" height="100"></a>
+    <br>
+    <form>   
+    Email:<br>
+    <input type="text" size="30" onFocus="this.style.backgroundColor='lightyellow';" onBlur="this.style.backgroundColor='white';"><br>
+    <button>Send</button>
+    </form>
+ 
+</body>
+</html>

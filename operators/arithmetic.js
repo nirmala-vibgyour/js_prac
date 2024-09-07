@@ -21,3 +21,10 @@ console.log(scoreAvg);
 // rounding up for infinietly large fractional part
 var scoreAvg = Math.floor(0.999999);
 console.log(scoreAvg);
+
+var total = 10.59675;
+var prettyTotal = total.toFixed(2);     // fixes to two decimal palces
+console.log(prettyTotal);
+
+prettyTotal = total.toFixed();
+console.log(prettyTotal);
