@@ -1,6 +1,13 @@
 // the scope of a variable is the region of a program where it can be accessed.
 // global variables: global declarative variables
 //                   global object variables
+console.log(globalThis);
+
+function foo(){
+    nn = "inside the func with no keywords";
+}
+
+foo();
 
 const declarativeVariable = 'd';
 var objectVariable = 'o';
@@ -11,6 +18,9 @@ console.log(objectVariable); // 'o'
 // not all declarations create properties of the global object:
 console.log(globalThis.declarativeVariable); // undefined
 console.log(globalThis.objectVariable); // undefined
+console.log(globalThis.nn); // in global object only when the function is called.
+
+// this means above var and const variables are not aded to the global object
 
 //  globalThis: gives you access to the global object, which is the container for global variables, functions, and properties.
 // In a browser environment, this is window.
